@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RootViewController.h"
+#import "OneViewController.h"
 
 @interface AppDelegate ()
 
@@ -25,7 +26,7 @@
     //3.设置为window
     [self.window makeKeyAndVisible];
     //4.设置根控制器
-    self.window.rootViewController = [[RootViewController alloc] init];
+    self.window.rootViewController = [[OneViewController alloc] init];
     
     return YES;
 }

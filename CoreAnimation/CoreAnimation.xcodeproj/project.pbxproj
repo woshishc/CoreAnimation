@@ -11,6 +11,10 @@
 		8D5FE38D1BFD760200BE381F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5FE38C1BFD760200BE381F /* Assets.xcassets */; };
 		8D5FE39E1BFD777600BE381F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FE39B1BFD777600BE381F /* AppDelegate.m */; };
 		8D5FE3A11BFD786800BE381F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FE3A01BFD786800BE381F /* RootViewController.m */; };
+		8D5FE3A41BFD922800BE381F /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FE3A31BFD922800BE381F /* OneViewController.m */; };
+		8D5FE3A71BFD929000BE381F /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FE3A61BFD929000BE381F /* TwoViewController.m */; };
+		8D5FE3AA1BFD929E00BE381F /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FE3A91BFD929E00BE381F /* ThreeViewController.m */; };
+		8D5FE3AD1BFD92AF00BE381F /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FE3AC1BFD92AF00BE381F /* FourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,14 @@
 		8D5FE39B1BFD777600BE381F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8D5FE39F1BFD786800BE381F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		8D5FE3A01BFD786800BE381F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		8D5FE3A21BFD922800BE381F /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		8D5FE3A31BFD922800BE381F /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		8D5FE3A51BFD929000BE381F /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		8D5FE3A61BFD929000BE381F /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		8D5FE3A81BFD929E00BE381F /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		8D5FE3A91BFD929E00BE381F /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		8D5FE3AB1BFD92AF00BE381F /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		8D5FE3AC1BFD92AF00BE381F /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,14 @@
 				8D5FE39B1BFD777600BE381F /* AppDelegate.m */,
 				8D5FE39F1BFD786800BE381F /* RootViewController.h */,
 				8D5FE3A01BFD786800BE381F /* RootViewController.m */,
+				8D5FE3A21BFD922800BE381F /* OneViewController.h */,
+				8D5FE3A31BFD922800BE381F /* OneViewController.m */,
+				8D5FE3A51BFD929000BE381F /* TwoViewController.h */,
+				8D5FE3A61BFD929000BE381F /* TwoViewController.m */,
+				8D5FE3A81BFD929E00BE381F /* ThreeViewController.h */,
+				8D5FE3A91BFD929E00BE381F /* ThreeViewController.m */,
+				8D5FE3AB1BFD92AF00BE381F /* FourViewController.h */,
+				8D5FE3AC1BFD92AF00BE381F /* FourViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -181,9 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5FE3AD1BFD92AF00BE381F /* FourViewController.m in Sources */,
 				8D5FE39E1BFD777600BE381F /* AppDelegate.m in Sources */,
 				8D5FE3821BFD760200BE381F /* main.m in Sources */,
 				8D5FE3A11BFD786800BE381F /* RootViewController.m in Sources */,
+				8D5FE3AA1BFD929E00BE381F /* ThreeViewController.m in Sources */,
+				8D5FE3A71BFD929000BE381F /* TwoViewController.m in Sources */,
+				8D5FE3A41BFD922800BE381F /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CoreAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -288,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CoreAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

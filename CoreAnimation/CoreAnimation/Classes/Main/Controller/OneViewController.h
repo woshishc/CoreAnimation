@@ -1,5 +1,5 @@
 //
-//  RootViewController.h
+//  OneViewController.h
 //  CoreAnimation
 //
 //  Created by suhc on 15/11/19.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITabBarController
+@interface OneViewController : UIViewController
 
 @end

@@ -1,5 +1,5 @@
 //
-//  RootViewController.h
+//  FourViewController.h
 //  CoreAnimation
 //
 //  Created by suhc on 15/11/19.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITabBarController
+@interface FourViewController : UIViewController
 
 @end
