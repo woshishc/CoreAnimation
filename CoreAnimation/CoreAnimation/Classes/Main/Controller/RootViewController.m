@@ -52,7 +52,6 @@
     
     [tabBarItemAppearance setTitlePositionAdjustment:UIOffsetMake(0, -10)];
     
-    
 }
 
 - (void)addOneChildViewController:(UIViewController *)controller withTitle:(NSString *)title{
